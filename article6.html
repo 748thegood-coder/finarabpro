@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXX');
+  </script>
+
+  <title>الرافعة المالية Leverage في الفوركس: كيف تضاعف ارباحك و تخسر حسابك | FinArab Pro</title>
+  <meta name="description" content="شرح الرافعة المالية 1:100 و 1:500 بالامثلة. كيف تحسب الهامش واللوت وتتجنب المارجن كول">
+  <meta name="keywords" content="الرافعة المالية, leverage, هامش, مارجن كول, فوركس, تداول">
+  <link rel="canonical" href="https://finarabpro.com/article6.html">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <style>
+    :root{--main:#38bdf8; --dark:#020617; --card:#1e293b; --text:#e2e8f0; --red:#ef4444; --green:#22c55e;}
+    *{margin:0; padding:0; box-sizing:border-box; scroll-behavior:smooth;}
+    body{font-family:'Tajawal', sans-serif; background:#0f172a; color:var(--text);}
+    .container{max-width:900px; margin:auto; padding:20px;}
+    header{background:rgba(2,6,23,0.9); backdrop-filter:blur(10px); padding:15px 0; border-bottom:1px solid #1e293b;}
+    .logo{font-size:24px; font-weight:900; color:var(--main); text-align:center;}
+    .logo span{color:#fff;}
+    .back-btn{display:inline-block; margin:20px 0; color:var(--main); text-decoration:none; font-weight:700;}
+    h1{font-size:36px; color:#fff; margin-bottom:15px; line-height:1.4;}
+    .article-meta{color:#64748b; margin-bottom:25px; font-size:14px;}
+    img{width:100%; border-radius:15px; margin:25px 0;}
+    h2{color:var(--main); font-size:26px; margin-top:40px; margin-bottom:15px;}
+    p{line-height:2; margin-bottom:15px; font-size:17px;}
+    .note-box{background:var(--card); padding:20px; border-radius:12px; border-right:4px solid var(--red); margin:20px 0;}
+    .good-box{background:var(--card); padding:20px; border-radius:12px; border-right:4px solid var(--green); margin:20px 0;}
+    .formula{background:#1e293b; padding:15px; border-radius:8px; text-align:center; font-size:18px; font-weight:900; color:var(--main); margin:20px 0;}
+    table{width:100%; border-collapse:collapse; margin:20px 0; background:var(--card); border-radius:10px; overflow:hidden;}
+    th,td{padding:12px; border-bottom:1px solid #334155; text-align:center;}
+    th{background:#0f172a; color:var(--main);}
+    .share-box{display:flex; gap:10px; margin:40px 0; padding:20px; background:var(--card); border-radius:12px; flex-wrap:wrap;}
+    .share-box a{padding:10px 15px; background:#334155; border-radius:8px; color:#fff; text-decoration:none;}
+    .share-box a:hover{background:var(--main); color:var(--dark);}
+    footer{background:var(--dark); padding:30px 0; text-align:center; border-top:1px solid #1e293b; margin-top:50px;}
+    .btn{background:var(--main); color:var(--dark); padding:12px 25px; border-radius:8px; text-decoration:none; font-weight:900; display:inline-block; margin:10px 5px;}
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container"><div class="logo">Fin<span>Arab</span> Pro</div></div>
+  </header>
+
+  <div class="container">
+    <a href="index.html" class="back-btn"><i class="fa-solid fa-arrow-right"></i> الرجوع للرئيسية</a>
+    
+    <h1>الرافعة المالية Leverage: كيف تضاعف ارباحك 100 مرة وتخسر حسابك في دقيقة</h1>
+    <div class="article-meta">
+      <i class="fa-regular fa-user"></i> FinArab Pro | 
+      <i class="fa-regular fa-calendar"></i> 20 نوفمبر 2026 | 
+      <i class="fa-regular fa-clock"></i> 6 دقائق قراءة
+    </div>
+    
+    <img src="https://images.pexels.com/photos/534216/pexels-photo-534216.jpeg" alt="الرافعة المالية">
+
+    <p>سمعت عن رافعة 1:500؟ دي البتخليك تتحكم في 50,000$ وانت رصيدك 100$ بس.</p>
+    <p>بس نفس الرافعة دي هي السبب رقم 1 في خسارة 90% من المبتدئين. تعال نفهمها بالبلدي.</p>
+    
+    <h2>1. يعني شنو رافعة مالية Leverage؟</h2>
+    <p>الرافعة = قرض بتديك ليهو شركة الوساطة عشان تكبر حجم تداولك.</p>
+    
+    <div class="good-box">
+      <strong>مثال:</strong> عندك 100$ ورافعة 1:100
+      <br>تقدر تفتح صفقة بحجم 10,000$ = 100 × 100
+      <br>يعني ربحك وخسارتك بتتحسب على 10,000$ مش على 100$
+    </div>
+
+    <h2>2. كيف احسب الهامش Margin المطلوب؟</h2>
+    <p>الهامش هو العربون البتتجمدو الشركة عشان تفتح الصفقة.</p>
+    
+    <div class="formula">الهامش = حجم العقد ÷ الرافعة</div>
+
+    <table>
+      <tr><th>الرافعة</th><th>عشان تفتح 1 لوت = 100,000$</th></tr>
+      <tr><td>1:50</td><td>2,000$</td></tr>
+      <tr><td>1:100</td><td>1,000$</td></tr>
+      <tr><td>1:500</td><td>200$</td></tr>
+    </table>
+    <p>شايف الفرق؟ كل ما الرافعة كبرت، الهامش قل. ودا الخطر.</p>
+
+    <h2>3. متين بيجي المارجن كول Margin Call؟</h2>
+    <p>لمن خسارتك تقرب تاكل الهامش كلو. الشركة بتقفل صفقاتك غصبا عنك عشان تحمي نفسها.</p>
+    
+    <div class="note-box">
+      <strong>مثال الخطر:</strong> رصيدك 500$ ورافعة 1:500 وفتحت 1 لوت
+      <br>حركة 10 نقاط ضدك = خسارة 100$
+      <br>حركة 50 نقطة = المارجن كول. الحساب طار.
+      <br>نفس الصفقة برافعة 1:100 كانت بتستحمل 250 نقطة.
+    </div>
+
+    <h2>4. ياتو رافعة اختار؟ نصيحتي ليك</h2>
+    <table>
+      <tr><th>لو انت</th><th>استخدم رافعة</th><th>السبب</th></tr>
+      <tr><td>مبتدئ</td><td>1:10 الى 1:50</td><td>تحميك من الطمع والاخطاء</td></tr>
+      <tr><td>متوسط</td><td>1:100</td><td>متوازنة بين الربح والمخاطرة</td></tr>
+      <tr><td>محترف</td><td>1:200 الى 1:500</td><td>عارف ادارة راس مال كويس</td></tr>
+    </table>
+
+    <p><b>القاعدة:</b> الرافعة العالية ما بتزيد ربحك. البزيد الربح هو "حجم اللوت". الرافعة بس بتقلل الهامش المحجوز.</p>
+
+    <h2>الخلاصة</h2>
+    <p>الرافعة المالية زي السكين. ممكن تقطع بيها خضار وممكن تجرح نفسك.</p>
+    <p>لو لسه جديد: خليها 1:50 وانساها. ركز على ادارة راس المال من المقال الفات.</p>
+    <p>انت شغال بياتو رافعة هسي؟ واجهتك مارجن كول قبل كدا؟ احكي لينا 👇</p>
+
+    <div style="text-align:center; margin:30px 0;">
+      <a href="article5.html" class="btn"><i class="fa-solid fa-arrow-left"></i> المقال السابق: ادارة راس المال</a>
+      <a href="article7.html" class="btn">المقال الجاي <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+    
+    <div class="share-box">
+      <span><b>شارك المقال:</b></span>
+      <a href="https://wa.me/?text=شرح الرافعة المالية https://finarabpro.com/article6.html"><i class="fa-brands fa-whatsapp"></i> واتساب</a>
+      <a href="#"><i class="fa-brands fa-telegram"></i> تلجرام</a>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 FinArab Pro. جميع الحقوق محفوظة</p>
+      <p style="color:#64748b; margin-top:10px;">ليس نصيحة مالية</p>
+    </div>
+  </footer>
+
+</body>
+</html>
